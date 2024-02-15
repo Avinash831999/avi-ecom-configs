@@ -3,6 +3,6 @@ spring:
   #   activate:
   #     on-profile: "prod"
   datasource:
-    url: jdbc:postgresql://localhost:5636/userdbprod
+    url: jdbc:postgresql://localhost:5634/userdbprod
     username: userdbuserprod
     password: Login@123
