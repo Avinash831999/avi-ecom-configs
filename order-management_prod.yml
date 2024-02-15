@@ -1,0 +1,8 @@
+spring:
+#   config:
+#     activate:
+#       on-profile: "prod"  
+  datasource:
+    url: jdbc:postgresql://localhost:5636/orderdbprod
+    username: orderdbuserprod
+    password: Login@123

@@ -1,0 +1,8 @@
+spring:
+  # config:
+  #   activate:
+  #     on-profile: "qa"
+  datasource:
+    url: jdbc:postgresql://localhost:5636/userdbqa
+    username: userdbuserqa
+    password: Login@123

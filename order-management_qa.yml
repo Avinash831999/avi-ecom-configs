@@ -1,0 +1,8 @@
+spring:
+  # config:
+  #   activate:
+  #     on-profile: "qa"
+  datasource:
+    url: jdbc:postgresql://localhost:5636/orderdbqa
+    username: orderdbuserqa
+    password: Login@123
