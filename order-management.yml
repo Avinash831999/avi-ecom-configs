@@ -9,13 +9,14 @@ spring:
     password: Login@123
   jpa:
     show-sql: true
+    hibernate:
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-        ddl-auto: update
   # config:
   #   import:
   #     -"order-management_prod.yml"
   #     -"order-management_qa.yml"
   # profiles:
-  #   active: "qa"    
+  #   active: "qa"
