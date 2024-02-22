@@ -4,9 +4,9 @@ spring:
   application:
     name: user-management
   datasource:
-    url: jdbc:postgresql://localhost:5434/userdb
-    username: userdbuser
-    password: Login@123
+    url: jdbc:postgresql://userdb.cn8ceqos04go.eu-north-1.rds.amazonaws.com:5434/UserDB
+    username: postgres
+    password: Login#1234
   jpa:
     show-sql: true
     hibernate:
