@@ -4,9 +4,9 @@ spring:
   application:
     name: product-management
   datasource:
-    url: jdbc:postgresql://localhost:5436/productdb
-    username: productdbuser
-    password: Login@123
+    url: jdbc:postgresql://productdb.cn8ceqos04go.eu-north-1.rds.amazonaws.com:5432/productdb
+    username: postgres
+    password: Login#1234
   jpa:
     show-sql: true
     hibernate:
